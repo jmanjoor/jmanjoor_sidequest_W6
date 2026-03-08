@@ -192,7 +192,7 @@ export class Game {
         this.events.on("player:jumped", () => this.sound.play("jump")),
       );
       this._unsubs.push(
-        this.events.on("player:attacked", () => this.sound.play("hitEnemy")),
+        this.events.on("player:attacked", () => this.sound.play("attack")),
       );
     }
 

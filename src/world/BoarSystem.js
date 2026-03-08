@@ -38,6 +38,7 @@ export function buildBoarGroup(level) {
       console.warn("[BoarSystem] group.addAnis failed; boars may be static:", err);
       level.boar.img = level.assets.boarImg;
     }
+
   } else {
     // static fallback
     level.boar.img = level.assets.boarImg;

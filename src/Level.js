@@ -324,8 +324,8 @@ export class Level {
     if (!this.boar) return;
     if (this.player.attackHitThisSwing) return; // optional guard
 
-    const rangeX = Number(this.tuning.player?.attackRangeX ?? 20);
-    const rangeY = Number(this.tuning.player?.attackRangeY ?? 16);
+    const rangeX = Number(this.tuning.player?.attack?.rangeX ?? 20);
+    const rangeY = Number(this.tuning.player?.attack?.rangeY ?? 16);
 
     const playerFeetY = y + (this.playerCtrl.sprite?.h ?? 12) / 2;
 

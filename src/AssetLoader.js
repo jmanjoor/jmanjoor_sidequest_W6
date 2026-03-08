@@ -20,8 +20,8 @@ export async function loadAssets(levelPkg, tuningDoc) {
   // IMPORTANT:
   // loadImage() is "preload-safe" only if p5 is actually tracking it inside preload().
   // To make this robust even if your boot flow uses async/await, we wrap loadImage in a Promise.
-  const playerImg = await loadImageAsync("assets/foxSpriteSheet.png");
-  const boarImg = await loadImageAsync("assets/boarSpriteSheet.png");
+  const playerImg = await loadImageAsync("assets/blue.png");
+  const boarImg = await loadImageAsync("assets/red.png");
   const leafImg = await loadImageAsync("assets/leafSpriteSheet.png");
   const fireImg = await loadImageAsync("assets/fireSpriteSheet.png");
 

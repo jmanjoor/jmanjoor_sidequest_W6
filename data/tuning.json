@@ -23,8 +23,8 @@
     },
 
     "attack": {
-      "rangeX": 20,
-      "rangeY": 16,
+      "rangeX": 35,
+      "rangeY": 20,
       "activeFrames": [4, 8],
       "endFrame": 12,
       "lockToGround": true
